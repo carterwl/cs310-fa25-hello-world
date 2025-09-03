@@ -1,17 +1,19 @@
 /**
- *
+ * Class2 with three methods
+ * 
  * @author Carter Leary
  */
-
 public class Class2 {
 
-    private void f1() {
-        // v1.0
+    public void f1() {
+        System.out.println("Class2 → f1() method running");
     }
-    private void f2() {
-        // v1.0
-    }  
-    private void f3() {
-        // v1.0
+
+    public void f2() {
+        System.out.println("Class2 → f2() method running");
+    }
+
+    public void f3() {
+        System.out.println("Class2 → f3() method running");
     }
 }
